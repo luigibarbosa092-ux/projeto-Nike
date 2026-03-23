@@ -1,0 +1,140 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:#ccee66;
+    color: white;
+    padding: 20px 100px; 
+    height: 100vh;
+
+}
+
+body::before{
+    content: "";
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 140%;
+    position: absolute;
+    top: 0;
+    left: -600px;
+    transform: rotate(-70deg);
+
+}
+
+body::after{
+    content: "Nike";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 155px;
+    font-weight: bold;
+    opacity: 0.5;
+
+
+}
+
+
+.logo{
+width: 50px;
+position: relative;
+z-index: 5;
+}
+
+h4{
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 70px;
+   font-family: "Source Sans 3", sans-serif; 
+   line-height: 1.0;
+}
+    
+
+
+p{
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.botao-carrinho{
+    background-color: #a3be52;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.botao-carrinho:hover{
+    opacity: 0.8;
+}
+
+.imagem-tenis{
+    width: 722px;
+    transform: rotate(-25deg);
+    position: relative;
+    left: 120px;
+    filter: drop-shadow(30px 45px 40px #161616);
+    transition: 1s;
+    margin-right: 57px;
+}
+
+.troca-efeito{
+    opacity: 0;
+    transform: rotate(-25deg) translateY(-30px);
+}
+
+.caixa-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    position: relative;
+    z-index: 1;
+}
+
+.caixa-texto{
+    max-width: 500px;
+}
+
+.caixa-botoes{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin-top: 45px;
+
+
+}
+
+.botoes{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.botoes:active{
+    opacity: 0.6;
+}
+
+.verde{
+    background-color: #ccee66;
+
+}
+
+.azul{
+    background-color: #58cced;
+
+}
+ .rosa{
+    background-color: #ff9eb5;
+
+ }
+
+
+
